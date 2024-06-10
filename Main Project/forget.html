@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>email</title>
+        <style>
+            .container{
+                display: flex;
+                justify-content: center;
+            margin-top: 200px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            }
+            .email {
+                background-color: rgba(255, 255, 255, .15);  
+                backdrop-filter: blur(0px);   
+ padding-inline-start:20px;
+    padding-inline-end: 35px;
+    padding-bottom: 20px;
+}
+h1{
+    font-weight: bold;
+    color:white;
+}
+.email input,
+.email textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.myVideo {
+  object-fit:fill;
+  left:0;
+  top:0;
+  right: 0;
+  bottom: 0;
+width:100%;
+height:105%;
+position: fixed;
+opacity: 2px;
+ z-index:-1;
+}
+.email button {
+    text-align:center;
+    width:50%;
+    background-color:blue;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color:black;
+    cursor: pointer;
+}
+.email button:hover {
+    background-color:cornflowerblue;
+}
+    body {
+               box-sizing: border-box;
+               background-color: black;
+               /*background-image:url("phon.jpg") ;*/
+               background-size: cover;
+            }
+             @media screen and (min-width: 767px)  {
+               body {
+                  /* background-image:url("phon.jpg") ;*/
+                   background-size: cover;
+                   background-color: black;
+               
+
+               }
+                       }
+     @media screen and (min-width: 768px) and (max-width: 1024px)  {
+              body {
+                  /* background-image:url("phon.jpg") ;*/
+                   background-size: cover;
+                   background-color: black;
+                }
+           }
+           @media screen and (min-width: 1024px)  {
+           body {
+                   /*background-image:url("phon.jpg") ;*/
+                   background-size: cover;
+                   background-color: black;
+               }
+           }
+      @media screen and (min-width: 1280px)  {
+           body {
+                   /*background-image:url("phon.jpg") ;*/
+                   background-size: cover;
+                   background-color: black;
+               }
+           }
+           li{
+            list-style-type: none;
+            color:white;
+            font-weight: bold;
+           }
+           button{
+            margin-top: 5px;
+            margin-left: 20px;
+           }
+        </style>
+        <script>
+            function validateform(){
+                const email = document.getElementById('email').value;
+                if (!validateEmail(email)) {
+            alert("Invalid email format");
+            return false;
+          }
+    else{
+          return true;
+        }
+            }
+        function validateEmail(email) {
+          // A simple email validation regular expression
+          const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          return emailPattern.test(email);
+        }
+            
+        </script>
+    </head>
+<body>
+    <button type="button" class="btn btn-info btn-lg"><a href="project.html"><li>Home</li> </a></button>
+    <div class="container">
+        <div class="email">
+            <form name="myform" action="email.html" onsubmit="return validateform()"> 
+            <h1>Forget Password</h1>
+            <input type="email" name="email" placeholder="Email" required>
+            <center><button type="submit">Submit</button></center></form>
+        </div>
+    </div>
+    <Video  autoplay muted loop class="myVideo">
+        <source src="https://cdn.pixabay.com/video/2023/09/17/181082-865395688_large.mp4" type="video/mp4">
+    </Video>
+</body>
+</html>

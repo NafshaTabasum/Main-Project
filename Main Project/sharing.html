@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>suggestion</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    .container{
+                display: flex;
+                justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            }
+            .sharing-form {
+                background-color: rgba(255, 255, 255, .15);;  
+                backdrop-filter: blur(0px);   
+ padding-inline-start:20px;
+    padding-inline-end: 35px;
+    padding-bottom: 20px;
+}
+.sharing-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:40px;
+    color:white;
+}
+.sharing-form input,
+.sharing-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.sharing-form button {
+    width:50%;
+    background-color:blue;
+    border-radius: 15px;
+    border:none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+}
+.sharing-form button:hover {
+    background-color:cornflowerblue;
+}
+    .myVideo {
+  object-fit:fill;
+  left:0;
+  top:0;
+  right: 0;
+  bottom: 0;
+width:100%;
+height:105%;
+position: fixed;
+opacity: 2px;
+ z-index:-1;
+}
+ p{
+    color: white;
+    text-shadow: 5px 5px 7px pink;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+li{
+    color:white;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+</style>
+</head>
+<body>
+    <button type="button" class="btn btn-info btn-lg"><a href="project.html"><li>Home</li> </a></button>
+    <div class="container">
+        <div class="sharing-form">
+            <form action="tick.html" method="post" >
+                <h2><center>SHARE HERE</center></h2>
+                <textarea name="message" rows="10" cols="150"placeholder="Your Message" required></textarea>
+                <center><button type="submit">SUBMIT</button></center>
+            </form> </div></div>
+            <p>"YOU CANNOT CHANGE YOUR FUTURE,<br>
+                BUT YOU CAN CHANGE YOUR HABITS,<br>
+                AND SURELY YOUR HABITS WILL CHANGE YOUR FUTURE<br>
+                COME INDIANS BE A PART FOR DEVELOPING OF INDIA</p>
+    <Video  autoplay muted loop class="myVideo">
+        <source src="https://cdn.pixabay.com/video/2023/09/17/181082-865395688_large.mp4" type="video/mp4">
+    </Video>
+</body>
+</html>

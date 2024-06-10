@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+         .container{
+                display: flex;
+                justify-content: center;
+            margin-top: 100px;
+            margin-bottom: 20px;
+            width:100%;
+            box-sizing: border-box;
+            }
+            .myform{
+    background-color: rgba(255, 255, 255, .15);;  
+                backdrop-filter: blur(0px);  
+                padding-inline-start:20px;
+    padding-inline-end: 35px;
+    padding-bottom: 20px;             
+}
+            .myVideo {
+  object-fit:fill;
+  left:0;
+  top:0;
+  right: 0;
+  bottom: 0;
+width:100%;
+height:105%;
+position: fixed;
+opacity: 2px;
+ z-index:-1;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+}
+h1{
+    color:white;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px orange;
+}
+li{
+    list-style-type: none;
+    font-size: 25px;
+    color:white;
+}
+button{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+</style>
+    </head>
+    <body>
+        <button type="button" class="btn btn-info btn-lg"><a href="project.html"><li>Home</li> </a></button>
+        <div class="container">
+            <div class="myform">
+                <center><h1>Co-Founder of The Bharat Book</h1>
+                <p>I am <span style="color:skyblue">Nafsha Tabasum</span><br>
+                At present,I am pursuing my Btech-3rd year from<br>
+                 Pace Institute of technology and sciences<br></p></center>
+            </div>
+        </div>
+        <Video  autoplay muted loop class="myVideo">
+            <source src="https://cdn.pixabay.com/video/2023/09/17/181082-865395688_large.mp4" type="video/mp4">
+        </Video>
+    </body>
+</html>

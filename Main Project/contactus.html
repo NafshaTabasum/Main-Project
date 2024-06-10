@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>contact us</title>
+        <style>
+            li{
+                font-size: 25px;
+                font-weight: bold;
+                list-style-type: none;
+                color: white;
+            }
+            .contact-form p{
+                font-size: 20px;
+                color: white;
+                font-weight: bold;
+
+            }
+            .container{
+                display: flex;
+                justify-content: center;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            }
+            marquee{
+                color:white;
+                font-size: 20px;
+            }
+            .contact-form {
+                background-color: rgba(255, 255, 255, .15);  
+                backdrop-filter: blur(0px);   
+ padding-inline-start:20px;
+    padding-inline-end: 35px;
+    padding-bottom: 20px;
+}
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:60px;
+    color:white;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.contact-form button {
+    width:100%;
+    background-color:blue;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color:black;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color:cornflowerblue;
+}
+
+        .myVideo {
+  object-fit:fill;
+  left:0;
+  top:0;
+  right: 0;
+  bottom: 0;
+width:100%;
+height:105%;
+position: fixed;
+opacity: 2px;
+ z-index:-1;
+}
+button{
+    margin-top: 5px;
+    margin-left:20px;
+}
+    body {
+               box-sizing: border-box;
+               background-color: black;
+               /*background-image:url("phon.jpg") ;*/
+               background-size: cover;
+            }
+             @media screen and (min-width: 767px)  {
+               body {
+                  /* background-image:url("phon.jpg") ;*/
+                   background-size: cover;
+                   background-color: black;
+               
+
+               }
+                       }
+     @media screen and (min-width: 768px) and (max-width: 1024px)  {
+              body {
+                  /* background-image:url("phon.jpg") ;*/
+                   background-size: cover;
+                   background-color: black;
+                }
+           }
+           @media screen and (min-width: 1024px)  {
+           body {
+                   /*background-image:url("phon.jpg") ;*/
+                   background-size: cover;
+                   background-color: black;
+               }
+           }
+      @media screen and (min-width: 1280px)  {
+           body {
+                   /*background-image:url("phon.jpg") ;*/
+                   background-size: cover;
+                   background-color: black;
+               }
+           }
+         </style>
+    </head>
+    <body >
+        <button type="button" class="btn btn-info btn-lg"><a href="project.html"><li>Home</li> </a></button>
+        <marquee>Available for 24/7,contact us anytime....</marquee>
+        <center><div class="container">
+            <div class="contact-form">
+                <form action="tick.html" method="post">
+                    <h2><center>Contact us</center></h2>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</a></button>
+                </form> 
+                <p>We are available for 24/7..<br>
+                let me if you have any problem regarding our website<br>
+            We also offer a wide variety of online support services through our website such as email support,<br>live chat,and the ability to submit a case online..<br>
+                    phone No:+11(567)4467 4567<br>
+                    Email:bharatbook@gamil.com</p>
+         </div> </div></center>
+        <Video  autoplay muted loop class="myVideo">
+            <source src="https://cdn.pixabay.com/video/2023/09/17/181082-865395688_large.mp4" type="video/mp4">
+        </Video>
+    </body>
+</html>
