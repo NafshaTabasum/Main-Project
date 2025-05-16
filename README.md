@@ -62,12 +62,19 @@
 ![Home Page](screenshots/home.png)
 
 ### ℹ️ About Us
-![About Us Page](screenshots/about.png)
+![About Us Page](screenshots/aboutus.png)
 
-### 🧑‍💻 Portfolio
-![Portfolio Page](screenshots/portfolio.png)
+### 🧑‍💻 Login Page
+![Portfolio Page](screenshots/login.png)
 
-*Add more screenshots if needed*
+### 🧑‍💻 Registration Page
+![Portfolio Page](screenshots/registration.png)
+
+### 🧑‍💻 Contact Us
+![Portfolio Page](screenshots/contactus.png)
+
+### 🧑‍💻 sharing Page
+![Portfolio Page](screenshots/share.png)
 
 ---
 
